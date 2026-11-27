@@ -1,6 +1,6 @@
 # human-baseline-habitat-loss-islands
 
-R code and data for the paper "Human-induced habitat loss rates exceed baseline rates across islands worldwide".
+R code and data for the paper "Human-induced habitat loss rates exceed baseline rates across islands worldwide" (Frontiers of Biogeography, in review).
 
 We compare human-induced habitat loss rates (HumHLr) on 43 volcanic oceanic islands with natural baseline rates (BaseHLr), i.e. habitat loss from sea-level rise since the Last Glacial Maximum (SeaHLr) and from Holocene volcanism (VolHLr). HumHLr is calculated with a local proxy (island vegetation data) and a global proxy (the Human Modification Index from Kennedy et al. 2019).
 
