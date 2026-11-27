@@ -1,12 +1,12 @@
 island,archipelago,baseHLr,proxy,ratio,proxy_label,island_f
 Corvo,Azores,0.00200657596642726,global_ratio,5.216432384648514,Global proxy,Corvo
-Corvo,Azores,0.00200657596642726,local_ratio,8.032387689718023,Local proxy,Corvo
+Corvo,Azores,0.00200657596642726,local_ratio,8.032387689718021,Local proxy,Corvo
 Faial,Azores,0.03887725609378421,global_ratio,6.954026231275717,Global proxy,Faial
 Faial,Azores,0.03887725609378421,local_ratio,7.39951436839953,Local proxy,Faial
-Flores,Azores,0.01354044927674814,global_ratio,7.11818159344675,Global proxy,Flores
-Flores,Azores,0.01354044927674814,local_ratio,13.244364300948776,Local proxy,Flores
-Graciosa,Azores,0.0055047635377312,global_ratio,20.167395435516127,Global proxy,Graciosa
-Graciosa,Azores,0.0055047635377312,local_ratio,21.991023681011917,Local proxy,Graciosa
+Flores,Azores,0.01354044927674814,global_ratio,7.118181593446746,Global proxy,Flores
+Flores,Azores,0.01354044927674814,local_ratio,13.244364300948774,Local proxy,Flores
+Graciosa,Azores,0.0055047635377312,global_ratio,20.167395435516134,Global proxy,Graciosa
+Graciosa,Azores,0.0055047635377312,local_ratio,21.991023681011924,Local proxy,Graciosa
 Pico,Azores,0.04513966261590813,global_ratio,8.857449632688512,Global proxy,Pico
 Pico,Azores,0.04513966261590813,local_ratio,16.11705721413597,Local proxy,Pico
 Santa Maria,Azores,0.00648310957191641,global_ratio,25.09187012637424,Global proxy,Santa Maria
@@ -15,68 +15,68 @@ São Jorge,Azores,0.01280116753349411,global_ratio,20.89485798630011,Global prox
 São Jorge,Azores,0.01280116753349411,local_ratio,32.17165470937231,Local proxy,São Jorge
 São Miguel,Azores,0.0444809173486168,global_ratio,25.90799162934563,Global proxy,São Miguel
 São Miguel,Azores,0.0444809173486168,local_ratio,27.396335293649383,Local proxy,São Miguel
-Terceira,Azores,0.02034841471260973,global_ratio,28.390556442375207,Global proxy,Terceira
-Terceira,Azores,0.02034841471260973,local_ratio,30.81166536993076,Local proxy,Terceira
+Terceira,Azores,0.02034841471260973,global_ratio,28.39055644237521,Global proxy,Terceira
+Terceira,Azores,0.02034841471260973,local_ratio,30.81166536993077,Local proxy,Terceira
 Boa Vista,Cabo Verde,0.08933369303429108,global_ratio,2.6842178946789796,Global proxy,Boa Vista
 Boa Vista,Cabo Verde,0.08933369303429108,local_ratio,13.730169435309872,Local proxy,Boa Vista
 Brava,Cabo Verde,6.893153416898865e-4,global_ratio,175.3354856584608,Global proxy,Brava
 Brava,Cabo Verde,6.893153416898865e-4,local_ratio,115.9729358872378,Local proxy,Brava
 Fogo,Cabo Verde,0.01223556360693189,global_ratio,59.72907721092046,Global proxy,Fogo
 Fogo,Cabo Verde,0.01223556360693189,local_ratio,53.22030273939224,Local proxy,Fogo
-Maio,Cabo Verde,0.01978901570673756,global_ratio,4.891904300250745,Global proxy,Maio
+Maio,Cabo Verde,0.01978901570673756,global_ratio,4.89190430025074,Global proxy,Maio
 Maio,Cabo Verde,0.01978901570673756,local_ratio,17.241256209468467,Local proxy,Maio
-Sal,Cabo Verde,0.01103094360306416,global_ratio,31.457530841185456,Global proxy,Sal
-Sal,Cabo Verde,0.01103094360306416,local_ratio,56.034693166804445,Local proxy,Sal
-Santiago,Cabo Verde,0.00558896537503861,global_ratio,273.4479010272867,Global proxy,Santiago
-Santiago,Cabo Verde,0.00558896537503861,local_ratio,186.57995267536444,Local proxy,Santiago
+Sal,Cabo Verde,0.01103094360306416,global_ratio,31.457530841185473,Global proxy,Sal
+Sal,Cabo Verde,0.01103094360306416,local_ratio,56.03469316680448,Local proxy,Sal
+Santiago,Cabo Verde,0.00558896537503862,global_ratio,273.4479010272864,Global proxy,Santiago
+Santiago,Cabo Verde,0.00558896537503862,local_ratio,186.57995267536424,Local proxy,Santiago
 Santo Antão,Cabo Verde,0.00440322876429254,global_ratio,157.4095617775751,Global proxy,Santo Antão
 Santo Antão,Cabo Verde,0.00440322876429254,local_ratio,231.11202482152152,Local proxy,Santo Antão
 São Nicolau,Cabo Verde,0.00209333453037507,global_ratio,205.5830938035642,Global proxy,São Nicolau
 São Nicolau,Cabo Verde,0.00209333453037507,local_ratio,283.14401371154503,Local proxy,São Nicolau
 São Vicente,Cabo Verde,0.00910610936954705,global_ratio,63.35804935440985,Global proxy,São Vicente
 São Vicente,Cabo Verde,0.00910610936954705,local_ratio,59.02199769885751,Local proxy,São Vicente
-El Hierro,Canary Islands,0.00463122214160969,global_ratio,24.61719920066037,Global proxy,El Hierro
-El Hierro,Canary Islands,0.00463122214160969,local_ratio,15.392186502528668,Local proxy,El Hierro
-Fuerteventura,Canary Islands,0.1540791072338691,global_ratio,5.732642173028062,Global proxy,Fuerteventura
-Fuerteventura,Canary Islands,0.1540791072338691,local_ratio,5.822351975342374,Local proxy,Fuerteventura
-Gran Canaria,Canary Islands,0.05412852113691013,global_ratio,18.57405015101931,Global proxy,Gran Canaria
-Gran Canaria,Canary Islands,0.05412852113691013,local_ratio,10.232257815887593,Local proxy,Gran Canaria
+El Hierro,Canary Islands,0.00463122214160969,global_ratio,24.617199200660384,Global proxy,El Hierro
+El Hierro,Canary Islands,0.00463122214160969,local_ratio,15.392186502528682,Local proxy,El Hierro
+Fuerteventura,Canary Islands,0.1540791072338691,global_ratio,5.7326421730280614,Global proxy,Fuerteventura
+Fuerteventura,Canary Islands,0.1540791072338691,local_ratio,5.8223519753423725,Local proxy,Fuerteventura
+Gran Canaria,Canary Islands,0.05412852113691013,global_ratio,18.57405015101932,Global proxy,Gran Canaria
+Gran Canaria,Canary Islands,0.05412852113691013,local_ratio,10.232257815887596,Local proxy,Gran Canaria
 La Gomera,Canary Islands,0.02203684210497985,global_ratio,8.94855413535302,Global proxy,La Gomera
 La Gomera,Canary Islands,0.02203684210497985,local_ratio,2.8108614201153945,Local proxy,La Gomera
 La Palma,Canary Islands,0.01232236877300124,global_ratio,23.359589782070927,Global proxy,La Palma
 La Palma,Canary Islands,0.01232236877300124,local_ratio,9.933055973465285,Local proxy,La Palma
 Lanzarote,Canary Islands,0.21089561257387643,global_ratio,2.000670397572565,Global proxy,Lanzarote
 Lanzarote,Canary Islands,0.21089561257387643,local_ratio,1.358170804188921,Local proxy,Lanzarote
-Tenerife,Canary Islands,0.0427418431368415,global_ratio,27.129496883686105,Global proxy,Tenerife
-Tenerife,Canary Islands,0.0427418431368415,local_ratio,12.67094266088356,Local proxy,Tenerife
+Tenerife,Canary Islands,0.0427418431368415,global_ratio,27.1294968836861,Global proxy,Tenerife
+Tenerife,Canary Islands,0.0427418431368415,local_ratio,12.670942660883556,Local proxy,Tenerife
 Floreana,Galápagos Islands,0.00805357511397213,global_ratio,9.758762913765096,Global proxy,Floreana
 Floreana,Galápagos Islands,0.00805357511397213,local_ratio,7.910461094247032,Local proxy,Floreana
 Isabela,Galápagos Islands,0.4340723862259778,global_ratio,0.5652740418153603,Global proxy,Isabela
 Isabela,Galápagos Islands,0.4340723862259778,local_ratio,51.39668170121317,Local proxy,Isabela
 San Cristóbal,Galápagos Islands,0.028848103677865,global_ratio,4.004400823350931,Global proxy,San Cristóbal
 San Cristóbal,Galápagos Islands,0.028848103677865,local_ratio,8.731198467231193,Local proxy,San Cristóbal
-Santa Cruz,Galápagos Islands,0.0869023257171278,global_ratio,4.767581773175239,Global proxy,Santa Cruz
-Santa Cruz,Galápagos Islands,0.0869023257171278,local_ratio,2.831315433998113,Local proxy,Santa Cruz
-Annobón,Gulf of Guinea Islands,0.00595775272984253,global_ratio,3.5202470049421604,Global proxy,Annobón
-Annobón,Gulf of Guinea Islands,0.00595775272984253,local_ratio,3.5010776151394265,Local proxy,Annobón
-Principe,Gulf of Guinea Islands,0.04696304505803125,global_ratio,2.4158595401793774,Global proxy,Principe
+Santa Cruz,Galápagos Islands,0.0869023257171278,global_ratio,4.767581773175232,Global proxy,Santa Cruz
+Santa Cruz,Galápagos Islands,0.0869023257171278,local_ratio,2.8313154339981055,Local proxy,Santa Cruz
+Annobón,Gulf of Guinea Islands,0.00595775272984253,global_ratio,3.5202470049421617,Global proxy,Annobón
+Annobón,Gulf of Guinea Islands,0.00595775272984253,local_ratio,3.5010776151394274,Local proxy,Annobón
+Principe,Gulf of Guinea Islands,0.04696304505803125,global_ratio,2.415859540179376,Global proxy,Principe
 Principe,Gulf of Guinea Islands,0.04696304505803125,local_ratio,2.263585703036649,Local proxy,Principe
-São Tome,Gulf of Guinea Islands,0.02043198050957634,global_ratio,38.24113733346496,Global proxy,São Tome
+São Tome,Gulf of Guinea Islands,0.02043198050957634,global_ratio,38.241137333464955,Global proxy,São Tome
 São Tome,Gulf of Guinea Islands,0.02043198050957634,local_ratio,33.884782144211854,Local proxy,São Tome
-Hawaii,Hawaiian Islands,0.6624363317238432,global_ratio,4.575651072460725,Global proxy,Hawaii
-Hawaii,Hawaiian Islands,0.6624363317238432,local_ratio,12.339983950553757,Local proxy,Hawaii
-Kauai,Hawaiian Islands,0.02453724677141477,global_ratio,23.59592399245186,Global proxy,Kauai
-Kauai,Hawaiian Islands,0.02453724677141477,local_ratio,46.3509414682418,Local proxy,Kauai
-Lanai,Hawaiian Islands,0.2608938799448537,global_ratio,0.3065675958357017,Global proxy,Lanai
-Lanai,Hawaiian Islands,0.2608938799448537,local_ratio,1.6976802983983938,Local proxy,Lanai
-Maui,Hawaiian Islands,0.20971365410023105,global_ratio,5.465499467794642,Global proxy,Maui
+Hawaii,Hawaiian Islands,0.6624363317238432,global_ratio,4.575651072460718,Global proxy,Hawaii
+Hawaii,Hawaiian Islands,0.6624363317238432,local_ratio,12.339983950553751,Local proxy,Hawaii
+Kauai,Hawaiian Islands,0.02453724677141476,global_ratio,23.59592399245188,Global proxy,Kauai
+Kauai,Hawaiian Islands,0.02453724677141476,local_ratio,46.35094146824183,Local proxy,Kauai
+Lanai,Hawaiian Islands,0.2608938799448537,global_ratio,0.306567595835702,Global proxy,Lanai
+Lanai,Hawaiian Islands,0.2608938799448537,local_ratio,1.6976802983983943,Local proxy,Lanai
+Maui,Hawaiian Islands,0.20971365410023105,global_ratio,5.46549946779464,Global proxy,Maui
 Maui,Hawaiian Islands,0.20971365410023105,local_ratio,8.350711491145073,Local proxy,Maui
 Molokai,Hawaiian Islands,0.24600339569087645,global_ratio,0.500588440365594,Global proxy,Molokai
 Molokai,Hawaiian Islands,0.24600339569087645,local_ratio,1.6307328117383892,Local proxy,Molokai
-Niihau,Hawaiian Islands,0.01330365732967501,global_ratio,0.03768187278335701,Global proxy,Niihau
-Niihau,Hawaiian Islands,0.01330365732967501,local_ratio,14.291091690007535,Local proxy,Niihau
-Oahu,Hawaiian Islands,0.04059609732791072,global_ratio,73.1347865897038,Global proxy,Oahu
-Oahu,Hawaiian Islands,0.04059609732791072,local_ratio,67.8056845868543,Local proxy,Oahu
+Niihau,Hawaiian Islands,0.01330365732967501,global_ratio,0.03768187278335918,Global proxy,Niihau
+Niihau,Hawaiian Islands,0.01330365732967501,local_ratio,14.29109169000754,Local proxy,Niihau
+Oahu,Hawaiian Islands,0.0405960973279107,global_ratio,73.13478658970382,Global proxy,Oahu
+Oahu,Hawaiian Islands,0.0405960973279107,local_ratio,67.80568458685433,Local proxy,Oahu
 Madeira,Madeira,0.03311098711441682,global_ratio,31.34034213264468,Global proxy,Madeira
 Madeira,Madeira,0.03311098711441682,local_ratio,21.6645580394432,Local proxy,Madeira
 Porto Santo,Madeira,0.00905655051255233,global_ratio,7.7807899049255775,Global proxy,Porto Santo

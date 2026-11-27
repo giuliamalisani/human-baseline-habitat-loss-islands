@@ -108,7 +108,7 @@ Ghumhl_data <- natural_habitat_long %>%
 write_csv(Ghumhl_data, file.path(output_data_dir, "global_humhl.csv"))
 
 #----3. Local HumHL & Localc HumHLr----
-Lhumhl_data <- read_csv(file.path(input_data_dir, "local_natural_covers.csv")) %>%
+Lhumhl_rates <- read_csv(file.path(input_data_dir, "local_natural_covers.csv")) %>%
   select(-archipelago) %>%
   harmonise() %>%
   left_join(island_information, by = "island") %>%
@@ -192,7 +192,7 @@ hl_joined <- Ghumhl_data %>%
   filter(threshold == selected_threshold) %>%
   select(island, archipelago, arrival_year, years_since_arrival, total_area_km2,
          global_humHL, global_humHLr) %>%
-  left_join(Lhumhl_data %>% select(island, local_humHL, local_humHLr), by = "island") %>%
+  left_join(Lhumhl_rates %>% select(island, local_humHL, local_humHLr), by = "island") %>%
   left_join(seahl_data %>% select(island, seaHL, seaHLr), by = "island") %>%
   left_join(volhl_data %>% select(island, volHL, volHLr), by = "island") %>%
   mutate(

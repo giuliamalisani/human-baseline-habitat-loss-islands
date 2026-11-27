@@ -44,7 +44,7 @@ err_colors <- c(
   "RMSE"  = "#4d4d4d")
 x_breaks <- sort(unique(calibration_stats$threshold))
 
-shared_theme <- theme_minimal(base_size = 12) +
+shared_theme <- theme_minimal(base_size = 14) +
   theme(
     axis.ticks = element_blank(),
     panel.grid.major = element_line(color = "#E0E0E0", linewidth = 0.4),
@@ -85,7 +85,7 @@ panel_B <- ggplot(ba_data, aes(x = mean_val, y = diff_val)) +
   geom_text_repel(
     data  = top_outliers,
     aes(label = island),
-    size = 3,
+    size = 4,
     box.padding = 0.5,
     point.padding = 0.3,
     segment.color = "grey60",
@@ -100,7 +100,7 @@ calibration_plot <- panel_A / panel_B + plot_annotation(tag_levels = "A")
 print(calibration_plot)
 
 ggsave(file.path(figures_dir, "calibration.png"),
-       plot = calibration_plot, dpi = 300, height = 12, width = 10)
+       plot = calibration_plot, width = 17, height = 24, units = "cm", dpi = 300)
 
 #----2. Summary stats---- 
 hl_summ <- hl_data %>%
@@ -273,9 +273,9 @@ hl_boxplot <- ggplot(hl_long, aes(x = metric_label, y = rate, fill = metric_labe
   geom_boxplot(width = 0.6, linewidth = 0.35, alpha = 0.65) +
   geom_jitter(width = 0.08, height = 0, size = 1.8, color = "grey30", alpha = 0.5) +
   scale_fill_manual(values = hl_cols) +
-  theme_minimal(base_size = 12) +
+  theme_minimal(base_size = 14) +
   labs(
-    x = "BaseHLr                                                    HumHLr",
+    x = "BaseHLr                                    HumHLr",
     y = expression("Habitat loss rate (km"^2 * " year"^-1 * ")"),
     subtitle = "Wilcoxon signed-rank test, p.adjust = Holm") +
   theme(
@@ -292,25 +292,25 @@ hl_boxplot <- ggplot(hl_long, aes(x = metric_label, y = rate, fill = metric_labe
   stat_pvalue_manual(
     ann_lin, label = "label", xmin = "group1", xmax = "group2",
     y.position = "y.position", tip.length = 0.01, bracket.size = 0.35,
-    size = 4, inherit.aes = FALSE)
+    size = 5, inherit.aes = FALSE)
 
 print(hl_boxplot)
 ggsave(file.path(figures_dir, "rates_boxplot_linear.png"),
-       plot = hl_boxplot, width = 7, height = 7, dpi = 300)
+       plot = hl_boxplot, width = 17, height = 18, units = "cm", dpi = 300)
 
 #log
 ymax_log <- max(hl_long$rate_logbuff, na.rm = TRUE)
 ann_log <- ann
-ann_log$y.position <- ymax_log * 0.12 + (seq_len(nrow(ann_log)) - 1) * (ymax_log * 0.025)
+ann_log$y.position <- ymax_log * 2 * 2.6^(seq_len(nrow(ann_log)) - 1)
 
 hl_LOGboxplot <- ggplot(hl_long, aes(x = metric_label, y = rate_logbuff, fill = metric_label)) +
   geom_boxplot(width = 0.6, linewidth = 0.35, alpha = 0.65) +
   geom_jitter(width = 0.08, height = 0, size = 1.8, color = "grey30", alpha = 0.5) +
   scale_y_log10() +
   scale_fill_manual(values = hl_cols) +
-  theme_minimal(base_size = 12) +
+  theme_minimal(base_size = 14) +
   labs(
-    x = "BaseHLr                                                    HumHLr",
+    x = "BaseHLr                                    HumHLr",
     y = expression("Habitat loss rate (km"^2 * " year"^-1 * ", log"[10] * " scale)"),
     subtitle = "Wilcoxon signed-rank test, p.adjust = Holm") +
   theme(
@@ -327,11 +327,11 @@ hl_LOGboxplot <- ggplot(hl_long, aes(x = metric_label, y = rate_logbuff, fill = 
   stat_pvalue_manual(
     ann_log, label = "label", xmin = "group1", xmax = "group2",
     y.position = "y.position", tip.length = 0.01, bracket.size = 0.35,
-    size = 4, inherit.aes = FALSE)
+    size = 5, inherit.aes = FALSE)
 
 print(hl_LOGboxplot)
 ggsave(file.path(figures_dir, "rates_boxplot_log.png"),
-       plot = hl_LOGboxplot, width = 7, height = 7, dpi = 300)
+       plot = hl_LOGboxplot, width = 17, height = 18, units = "cm", dpi = 300)
 
 #----5. Cleveland plots ----
 hl_clv <- hl_data %>%
@@ -368,7 +368,7 @@ hl_shapes <- c(
   "Local HumHLr" = 17,
   "Global HumHLr"= 17)
 
-cleveland_theme <- theme_minimal(base_size = 12) +
+cleveland_theme <- theme_minimal(base_size = 14) +
   theme(
     legend.position    = "top",
     legend.title       = element_blank(),
@@ -380,7 +380,7 @@ cleveland_theme <- theme_minimal(base_size = 12) +
     axis.ticks         = element_blank(),
     strip.placement    = "outside",
     strip.background   = element_blank(),
-    strip.text.y.right  = element_text(angle = 0, face = "bold", size = 9),
+    strip.text.y.right  = element_text(angle = 0, face = "bold", size = 12),
     panel.border       = element_blank(),
     plot.background    = element_rect(fill = "white"),
     panel.background   = element_rect(fill = "white", colour = NA),
@@ -398,7 +398,7 @@ hl_cleveland_linear <- ggplot(
 
 print(hl_cleveland_linear)
 ggsave(file.path(figures_dir, "rates_islands_linear.png"),
-       plot = hl_cleveland_linear, width = 10, height = 10, dpi = 300)
+       plot = hl_cleveland_linear, width = 24, height = 30, units = "cm", dpi = 300)
 
 #log
 hl_cleveland_log <- ggplot(
@@ -413,7 +413,7 @@ hl_cleveland_log <- ggplot(
 
 print(hl_cleveland_log)
 ggsave(file.path(figures_dir, "rates_islands_log.png"),
-       plot = hl_cleveland_log, width = 10, height = 10, dpi = 300)
+       plot = hl_cleveland_log, width = 24, height = 30, units = "cm", dpi = 300)
 
 #----6. Ratio analysis (HumHLr/BaseHLr) -----
 ratio_clv <- hl_data %>%
@@ -464,7 +464,7 @@ ratio_boxplot_log <- ggplot(ratio_clv, aes(x = proxy_label, y = ratio, fill = pr
   scale_y_log10() +
   scale_fill_manual(values = hl_cols) +
   labs(x = NULL, y = expression("HumHLr / BaseHLr (log"[10]*" scale)")) +
-  theme_minimal(base_size = 12) +
+  theme_minimal(base_size = 14) +
   theme(
     legend.position = "none",
     axis.title.x = element_text(margin = margin(t = 5)),
@@ -479,7 +479,7 @@ ratio_boxplot_log <- ggplot(ratio_clv, aes(x = proxy_label, y = ratio, fill = pr
 
 print(ratio_boxplot_log)
 ggsave(file.path(figures_dir, "ratios_boxplot_log.png"),
-       plot = ratio_boxplot_log, width = 7, height = 7, dpi = 300)
+       plot = ratio_boxplot_log, width = 17, height = 18, units = "cm", dpi = 300)
 
 #lin
 ratio_boxplot_lin <- ratio_boxplot_log +
@@ -488,7 +488,7 @@ ratio_boxplot_lin <- ratio_boxplot_log +
 
 print(ratio_boxplot_lin)
 ggsave(file.path(figures_dir, "ratios_boxplot_linear.png"),
-       plot = ratio_boxplot_lin, width = 7, height = 7, dpi = 300)
+       plot = ratio_boxplot_lin, width = 17, height = 18, units = "cm", dpi = 300)
 
 #Cleveland plots
 
@@ -508,7 +508,7 @@ ratio_cleveland_log <- ggplot(
 
 print(ratio_cleveland_log)
 ggsave(file.path(figures_dir, "ratios_islands_log.png"),
-       plot = ratio_cleveland_log, width = 10, height = 10, dpi = 300)
+       plot = ratio_cleveland_log, width = 24, height = 30, units = "cm", dpi = 300)
 
 #lin
 ratio_cleveland_lin <- ratio_cleveland_log +
@@ -517,4 +517,5 @@ ratio_cleveland_lin <- ratio_cleveland_log +
 
 print(ratio_cleveland_lin)
 ggsave(file.path(figures_dir, "ratios_islands_linear.png"),
-       plot = ratio_cleveland_lin, width = 10, height = 10, dpi = 300)
+       plot = ratio_cleveland_lin, width = 24, height = 30, units = "cm", dpi = 300)
+
