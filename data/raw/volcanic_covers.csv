@@ -1,0 +1,45 @@
+island,total_area_km2,archipelago,Volcano list,map,reference,comments,% Holocene volcanism,alternative,Best estimate,vol_area_pctg
+Boa Vista,642.2749483511273,Cape Verde,No,NA,NA,NA,0,NA,NA,0
+Corvo,17.37523192584716,Azores,No,NA,NA,NA,0,NA,NA,0
+El Hierro,272.8009574914021,Canaries,Yes,Yes,Hoernle and Carracedo (2009),NA,3.9503426374340598,NA,NA,3.9503426374340598
+Faial,171.7781379170181,Azores,Yes,Yes,"PhD Thesis Adriano Pimentel 2015 - PYROCLASTIC DENSITY CURRENT-FORMINGE RUPTIONS ON FAIAL AND TERCEIRA ISLANDS, AZORES","Minimum estimate, because some (small) Holocene units not on map",42.137614873533039,NA,NA,42.13761487353304
+Floreana,174.4557968126066,Galapagos,Yes,Sort of,"Gromme et al. (2010), Kempe et al. (2021)","Uncertain. Map of Gromme et al. show 'youngest lava flows', but no age data. ""Younger volcanoes have been active since 1953"" Kempe et al.",12.08891169796731,NA,NA,12.08891169796731
+Flores,140.8485199275993,Azores,Yes,Yes,Andrade et al. (2023),NA,26.378605299627122,NA,NA,26.37860529962712
+Fogo,470.42170228761057,Cape Verde,Yes,Yes,Carracedo et al. (2015),NA,26.885991173987794,NA,NA,26.885991173987794
+Fuerteventura,1671.276807306079,Canaries,Yes,Yes,"Hoernle and Carracedo (2009), Beato Bergua (2025)",NA,0,NA,NA,0
+Graciosa,60.4061511067862,Azores,Yes,yes,Sibrant et al. (2014). Larrea et al. (2014),Minimum estimate (13%) is two dated units from Larrea et al. (4 ka and 11 ka). Maximum estimate (23%) is including also pink strombolian cones on map of Sibrant et al: recently built unconformably on top of the older volcanic units (probably during the last 30 ka).,12.720149694072813,22.54401947216145,16,16
+Gran Canaria,1566.145475198378,Canaries,Yes,Yes,Rodriguez-Gonzalez et al. (2018),NA,2.6601551034080928,NA,NA,2.660155103408093
+Hawaii,10492.9111465818,Hawaiian,Yes,Yes,"Sherrod et al., https://doi.org/10.3133/sim3143",NA,70.033189199036556,NA,NA,70.03318919903656
+Brava,64.91408163912048,Cape Verde,Yes,Sort of,"Madeira et al. (2010), Mourão et al. (2010)","Unknown. Brava is included in Holocene volcano list, but age of last known eruption is unknown. No Holocene ages reported, but ""During the last 300 ka, a sub-aerial, post-erosional volcanic phase covered the erosion surface with phonolite lava flows/ domes and pyroclasts and sparse mafic and carbonatitic products. Some of these events present a very fresh morphology, indicating a probable Holocene age"" (Madeira et al. 2010). No eruptions since settlement in the 15th century.",unknown,NA,NA,0
+Maio,273.0516871744443,Cape Verde,No,NA,"Holm et al. (2008), Villaseca et al. (2025)",NA,0,NA,NA,0
+Isabela,4737.22051268726,Galapagos,Yes,Sort of,"Kempe et al. (2021), Geist et al. (1994), Geist et al. (2005)","Uncertain. Southern part is all younger than 9 ka (Kempe et al.). The rest is based on level of oxidation and amount of vegetation on lava flows, partly based on maps of Wolf volcano (Geist et al.) and Alcedo volcano (Geist et al.), the rest is based on Google Earth imagery (in line with Geist maps).",81.083402829036004,NA,NA,81.083402829036
+Annobón,19.94475136939377,Cameroon line,No,NA,NA,NA,0,NA,NA,0
+Kauai,1445.69264604914,Hawaiian,No,NA,NA,NA,0,NA,NA,0
+La Gomera,368.0439905210842,Canaries,No,NA,Hoernle and Carracedo (2009),NA,0,NA,NA,0
+La Palma,707.7831568452401,Canaries,Yes,Yes,Hoernle and Carracedo (2009),NA,10.099948045958394,NA,NA,10.099948045958394
+La Réunion,2520.230336707413,Mascarenes,Yes,Yes,Michon et al. (2015) + map from powerpoint slides (ref unclear),"Minimum estimate (15%) is all units younger than 5000 BP, maximum (30%) estimate is also including units 60 ka - 5000 BP.",14.626412537844757,29.456539805637316,15,15
+Lanai,366.4668303656035,Hawaiian,No,NA,NA,NA,0,NA,NA,0
+Lanzarote,817.8918492179943,Canaries,Yes,Yes,Galindo et al. (2016),NA,23.14435323779578,NA,NA,23.14435323779578
+Madeira,740.8338040483446,Madeira,Yes,Yes,Geldmacher et al. (2000),NA,0.36505518945361981,NA,NA,0.3650551894536198
+Maui,1893.190008454175,Hawaiian,Yes,Yes,"Sherrod et al., https://doi.org/10.3133/sim3143","minimum estimate is Holocene lavaflows only (12%), maximum estimate is also including Holo/Pleisto vent and Tephra deposits (15%)",12.329503468154678,15.328608876267749,13.3,13.3
+Mauritius,1872.954321754658,Mascarenes,No,NA,Quidelleur and Famin (2024),NA,0,NA,NA,0
+Molokai,679.1669996991749,Hawaiian,No,NA,NA,NA,0,NA,NA,0
+Niihau,187.4620536968748,Hawaiian,No,NA,NA,NA,0,NA,NA,0
+Oahu,1559.821408411535,Hawaiian,No,NA,NA,NA,0,NA,NA,0
+Pico,442.5807944714688,Azores,Yes,Yes,Nunes (1999),"Minimum estimate (67%) is all units younger than 10 ka, maximum estimate (86%) is also including 3 extra units, with ages 5k-40k, 10k-45k, 10k-30k. Minimum estimate is probably closer to reality.",66.872591562047987,86.32684195389153,67,67
+Porto Santo,42.23285412483808,Madeira,No,NA,NA,NA,0,NA,NA,0
+Principe,138.278323769664,Cameroon line,No,NA,NA,NA,0,NA,NA,0
+Sal,224.0107201538636,Cape Verde,No,NA,"Holm et al. (2008), Villaseca et al. (2025)",NA,0,NA,NA,0
+San Cristóbal,561.7387689064903,Galapagos,Yes,Sort of,Geist et al. (1986),Uncertain: age estimate based on level of oxidization and amount of vegetation. Group 6 (lavas are exceedingly young and have < 1 plant per 100 ft2 and completely unoxidized flow tops) and group 5 (lavas have oxidized flow tops and are scantily vegetated).,12.696417558168987,NA,NA,12.696417558168987
+Santa Cruz,992.8805254974759,Galapgos,No,NA,NA,NA,0,NA,NA,0
+Santa Maria,97.81616846363241,Azores,No,NA,NA,NA,0,NA,NA,0
+Santiago,1007.154022861689,Cape Verde,No,NA,NA,NA,0,NA,NA,0
+Santo Antão,792.5479356525997,Cape Verde,No,NA,Eisele et al. (2015),NA,0,NA,NA,0
+São Jorge,244.3314574242155,Azores,Yes,Yes,Marques et al. (2018),"Holocene between 6% and 35%. 6% is historic erupions only, 35% is the whole Manadas Complex (< ca. 0.1 Ma): made of very young Strombolian cones and including historic eruptions",34.866118698397791,5.787209769943661,9,9
+São Miguel,744.7827844746009,Azores,Yes,Yes,Moore (1990),NA,37.154143552739292,NA,NA,37.15414355273929
+São Nicolau,347.8258320266173,Cape Verde,No,NA,"Holm et al. (2008), Villaseca et al. (2025)",NA,0,NA,NA,0
+São Tome,853.112010278967,Cameroon line,No,NA,NA,NA,0,NA,NA,0
+São Vicente,226.0461388275858,Cape Verde,No,NA,"Holm et al. (2008), Villaseca et al. (2025)",NA,0,NA,NA,0
+Tenerife,2047.169259696503,Canaries,Yes,Yes,"Hoernle and Carracedo (2009), Teide volcanism from Carracedo 2014",NA,9.8358342314368414,NA,NA,9.835834231436841
+Terceira,399.7107157093572,Azores,Yes,Yes,Quartau et al. (2014),Might be underestimation. Small scale map of Nunes et al. (2014) shows more Holocene (but map is only for a fraction of the island),23.935076819218558,NA,NA,23.93507681921856
+NA,NA,NA,"Global Volcanism Program, 2025. [Database] Volcanoes of the World (v. 5.3.2; 30 Sep 2025). Distributed by Smithsonian Institution, compiled by Venzke, E. https://doi.org/10.5479/si.GVP.VOTW5-2025.5.3",NA,NA,NA,NA,NA,NA,NA

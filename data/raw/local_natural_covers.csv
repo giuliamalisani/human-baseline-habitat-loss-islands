@@ -1,0 +1,44 @@
+island,archipelago,year_dataset,natural_cover_pctg,natural_cover_km2
+Corvo,Azores,2007,0.513,NA
+Faial,Azores,2007,0.09400000000000001,NA
+Flores,Azores,2007,0.329,NA
+Graciosa,Azores,2007,0.004,NA
+Pico,Azores,2007,0.137,NA
+Santa Maria,Azores,2007,0.147,NA
+São Jorge,Azores,2007,0.078,NA
+São Miguel,Azores,2007,0.087,NA
+Terceira,Azores,2007,0.142,NA
+Boa Vista,Cabo Verde,1999,0.175,NA
+Brava,Cabo Verde,1999,0.484,NA
+Fogo,Cabo Verde,1999,0.42,NA
+Maio,Cabo Verde,1999,0.329,NA
+Sal,Cabo Verde,1999,0.037,NA
+Santiago,Cabo Verde,1999,0.444,NA
+Santo Antão,Cabo Verde,1999,0.462,NA
+São Nicolau,Cabo Verde,1999,0.286,NA
+São Vicente,Cabo Verde,1999,0.106,NA
+El Hierro,Canary Islands,2010,NA,147.34
+Fuerteventura,Canary Islands,2010,NA,224.25
+Gran Canaria,Canary Islands,2010,NA,735.36
+La Gomera,Canary Islands,2010,NA,264.6
+La Palma,Canary Islands,2010,NA,503.01
+Lanzarote,Canary Islands,2010,NA,286.56
+Tenerife,Canary Islands,2010,NA,1131.9
+Floreana,Galápagos Islands,2018,NA,168.53100000000003
+Isabela,Galápagos Islands,2018,NA,2037.7250000000001
+San Cristóbal,Galápagos Islands,2018,NA,515.645
+Santa Cruz,Galápagos Islands,2018,NA,949.0840000000002
+Annobón,Gulf of Guinea Islands,2002,0.475,NA
+Principe,Gulf of Guinea Islands,2006,0.611,NA
+São Tome,Gulf of Guinea Islands,2006,0.578,NA
+Hawaii,Hawaiian Islands,2016,NA,3986.046
+Kauai,Hawaiian Islands,2016,NA,324.2907
+Lanai,Hawaiian Islands,2016,NA,27.1944
+Maui,Hawaiian Islands,2016,NA,464.1633
+Molokai,Hawaiian Islands,2016,NA,148.8258
+Niihau,Hawaiian Islands,2016,NA,0
+Oahu,Hawaiian Islands,2016,NA,200.0142
+Madeira,Madeira,2018,0.42,NA
+Porto Santo,Madeira,2018,0,NA
+La Réunion,Mascarene Islands,2003,NA,1049.4
+Mauritius,Mascarene Islands,1997,NA,5.4
